@@ -43,7 +43,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-pool</artifactId>
@@ -53,15 +53,20 @@
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-jms</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-amqp-starter</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-ftp-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.hawt</groupId>
+			<artifactId>hawtio-springboot-1</artifactId>
 		</dependency>
 
 	</dependencies>
